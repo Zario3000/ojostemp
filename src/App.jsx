@@ -14,7 +14,7 @@ function App() {
       <div className='app-arriba'>
         <div className='app-titulo-logo'>
           <div className='app-logo'>
-            <img src="../public/logo-web-v1.svg" alt="logo" />
+            <img src="../public/assets/logo-web-v1-f.jpg" alt="logo" />
           </div>
         <h1 className='app-titulo'>MIRADA SALUDABLE</h1>
         </div>
@@ -31,7 +31,7 @@ function App() {
       </div>
       <footer className='app-abajo'>
         <div className='app-abajo-logo' >
-          <img src="../public/logo-carrera.svg" alt="" />
+          <img src="../public/assets/logo-carrera.svg" alt="" />
         </div>
         <div className='app-abajo-titulo'>
           <h3 className='app-titulo-3'>UNIVERSIDAD NACIONAL MICAELA BASTIDAS DE APURÍMAC</h3>
