@@ -1,0 +1,129 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Skranji:wght@400;700&display=swap');
+:root{
+  --bg: #1e2345;
+  --violet: rgb(161, 132, 240);
+  --pink: #d60087;
+  --turquoise: #2fdabd;
+}
+
+*,*::before,*::after{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+  color: white;
+  position: relative;
+  font-family: "Skranji", system-ui;
+}
+button{
+  font-family: "Skranji", system-ui;
+}
+input{
+  font-family: "Skranji", system-ui;
+}
+.app{
+  background-image: linear-gradient(rgb(13, 24, 33), rgb(57, 20, 99),rgb(13, 24, 33));
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-items: center;
+}
+.app-arriba{
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+
+
+}
+.app-titulo-logo{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ 
+}
+.app-titulo{
+  background-color: var(--violet);
+  justify-items: center;
+  background-image: linear-gradient(45deg, var(--violet), var(--turquoise)) ;
+  background-repeat: repeat;
+  background-clip: text ;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+.app-subtítulo{
+  background-image: linear-gradient(45deg, var(--violet), var(--turquoise)) ;
+  background-repeat: repeat;
+  background-clip: text ;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+.app-parrafo{
+  background-image: linear-gradient(45deg, var(--violet), var(--turquoise)) ;
+  background-repeat: repeat;
+  background-clip: text ;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+.app-logo{
+  position: absolute;
+  left:10px;
+  top: 10px;
+ 
+  border-radius: 50%;
+}
+.app-logo img{
+  
+width: 50px;
+border-radius: 50%;
+}
+.app-card{
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.app-abajo{
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  align-items: center;
+}
+.app-abajo-logo{
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+
+}
+.app-titulo-3{
+  background-image: linear-gradient(45deg, var(--violet), var(--turquoise)) ;
+  background-repeat: repeat;
+  background-clip: text ;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+.app-parrafo-footer{
+  background-image: linear-gradient(45deg, var(--violet), var(--turquoise)) ;
+  background-repeat: repeat;
+  background-clip: text ;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+.app-abajo-logo img{
+  width: 100px;
+  height: 100px;
+}

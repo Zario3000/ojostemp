@@ -1,0 +1,79 @@
+:root{
+    --bg: #1e2345;
+    --violet: rgb(161, 132, 240);
+    --pink: #d60087;
+    --turquoise: #2fdabd;
+  }
+  .card-1{
+    width: 300px;
+    height: 400px;
+    padding: 5px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(57, 20, 99);
+  }
+.card-temporizador{
+
+    width: 300px;
+    height: 400px;
+    padding: 5px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(57, 20, 99);
+ 
+}
+.card-principal{
+  background: linear-gradient(100deg, var(--violet) 25%, var(--turquoise) 50%, var(--violet) 75%);
+  background-repeat: repeat;
+  border-radius: 20px;
+  animation: gradient 9s linear infinite;
+  padding: 6px;
+}
+@keyframes gradient  {
+    0% {
+        background-position: 0 0;
+    }
+    50%{
+        background-position: -80rem 0;
+    }
+    100% {
+        background-position: 0 0;
+    }
+}
+.card-contador{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border-radius: 50%;
+    
+}
+.card-inicio-temp{
+   display: flex;
+   justify-content: center;
+   gap: 10px; 
+}
+input{
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    width: 50px;
+}
+.card-iniciar{
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+}
+.card-reiniciar{
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+}
