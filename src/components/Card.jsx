@@ -23,7 +23,7 @@ const Card = () => {
             clearInterval(id);
             setIsActive(false);
             Swal.fire({
-              title: 'Es hora de tomar un descanzo, el temporizador ha llegado a cero!',
+              title: 'Es hora de tomar un descanso, el temporizador ha llegado a cero!',
               icon: 'info',
               showCancelButton: true,
               confirmButtonText: 'Reiniciar',
