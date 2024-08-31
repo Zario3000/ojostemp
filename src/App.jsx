@@ -14,7 +14,7 @@ function App() {
       <div className='app-arriba'>
         <div className='app-titulo-logo'>
           <div className='app-logo'>
-            <img src="../public/logo-web-v1" alt="logo" />
+            <img src="../public/logo-web-v1.svg" alt="logo" />
           </div>
         <h1 className='app-titulo'>MIRADA SALUDABLE</h1>
         </div>
