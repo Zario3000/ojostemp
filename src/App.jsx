@@ -4,6 +4,9 @@ import './App.css'
 import Swal from 'sweetalert2'
 import phrases from './utils/phrases.json'
 import Card from './components/Card'
+import logoweb from "../public/assets/logo-web-v1-f.jpg"
+import logocarrera from "../public/assets/logo-carrera-v2.png"
+
 
 function App() {
   
@@ -14,7 +17,7 @@ function App() {
       <div className='app-arriba'>
         <div className='app-titulo-logo'>
           <div className='app-logo'>
-            <img src="../public/assets/logo-web-v1-f.jpg" alt="logo" />
+            <img src={logoweb} alt="logo" />
           </div>
         <h1 className='app-titulo'>MIRADA SALUDABLE</h1>
         </div>
@@ -31,7 +34,7 @@ function App() {
       </div>
       <footer className='app-abajo'>
         <div className='app-abajo-logo' >
-          <img src="../public/assets/logo-carrera.svg" alt="" />
+          <img src={logocarrera} alt="" />
         </div>
         <div className='app-abajo-titulo'>
           <h3 className='app-titulo-3'>UNIVERSIDAD NACIONAL MICAELA BASTIDAS DE APURÍMAC</h3>
